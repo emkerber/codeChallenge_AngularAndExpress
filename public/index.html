@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="studentApp">
+<head>
+  <meta charset="utf-8" />
+  <title>Angular and Express Code Challenge</title>
+  <script src="vendor/angular.min.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+  <link href="stylesheet.css" rel="stylesheet" />
+</head>
+<body ng-controller="StudentController as student">
+
+  <h1>Click to see the students of Xi!</h1>
+
+  <button ng-click="student.getStudents()">Display Xi</button>
+
+  <p ng-repeat="peer in student.students">{{peer}}</p>
+
+</body>
+</html>
