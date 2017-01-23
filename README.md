@@ -8,3 +8,6 @@ When the page first loads, the user should be presented with a display button th
 
 Server
 The server should serve the index page of your application at the root url. The server should also have a /students route that will respond to GET requests with a list of students in the class. 
+
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/emkerber/codeChallenge_AngularAndExpress.svg)](https://greenkeeper.io/)
